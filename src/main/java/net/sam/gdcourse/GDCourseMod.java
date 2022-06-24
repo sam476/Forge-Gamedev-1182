@@ -14,7 +14,9 @@ import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.sam.gdcourse.block.ModBlocks;
 import net.sam.gdcourse.item.ModItems;
+import net.sam.gdcourse.sound.ModSounds;
 import org.slf4j.Logger;
 
 import java.util.stream.Collectors;
@@ -34,6 +36,8 @@ public class GDCourseMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::setup);
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
+        ModSounds.register(eventBus);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
