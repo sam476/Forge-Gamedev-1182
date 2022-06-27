@@ -13,7 +13,8 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, GDCourseMod.MOD_ID);
 
     public static final RegistryObject<Item> SMILELY = ITEMS.register("smilely",
-            () -> new MakeHappy(new Item.Properties().tab(CreativeModeTab.TAB_MISC).food(ModFoods.SMILELY)));
+            () -> new MakeHappy(new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB).food(ModFoods.SMILELY)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

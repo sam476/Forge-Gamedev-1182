@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "gdcourse:smilely"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_apple",
+    "count": 24
+  }
+}

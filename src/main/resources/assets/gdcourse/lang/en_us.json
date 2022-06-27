@@ -1,5 +1,8 @@
 {
   "item.gdcourse.smilely": "Smilely Face",
 
-  "block.gdcourse.speical_block": "Special Block"
+  "block.gdcourse.black_ore": "Black Ore",
+  "block.gdcourse.speical_block": "Special Block",
+
+  "ItemGroup.coursemodtab": "GDCourse Mod"
 }

@@ -1,30 +1,30 @@
 {
   "special_block_break": {
-    "subtitle": "gdcourse.special_block_break",
+    "subtitle": "sounds.gdcourse.special_block_break",
     "sounds": [
       "gdcourse:special_block_break"
     ]
   },
   "special_block_step": {
-    "subtitle": "gdcourse.special_block_step",
+    "subtitle": "sounds.gdcourse.special_block_step",
     "sounds": [
       "gdcourse:special_block_step"
     ]
   },
   "special_block_place": {
-    "subtitle": "gdcourse.special_block_place",
+    "subtitle": "sounds.gdcourse.special_block_place",
     "sounds": [
       "gdcourse:special_block_place"
     ]
   },
   "special_block_hit": {
-    "subtitle": "gdcourse.special_block_hit",
+    "subtitle": "sounds.gdcourse.special_block_hit",
     "sounds": [
       "gdcourse:special_block_hit"
     ]
   },
   "special_block_fall": {
-    "subtitle": "gdcourse.special_block_fall",
+    "subtitle": "sounds.gdcourse.special_block_fall",
     "sounds": [
       "gdcourse:special_block_fall"
     ]

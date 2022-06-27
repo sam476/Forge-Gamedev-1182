@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "gdcourse:special_block"
+  },
+  "result": "minecraft:gold_block",
+  "experience": 0.7,
+  "cookingtime": 100
+}
