@@ -14,6 +14,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.sam.gdcourse.GDCourseMod;
+import net.sam.gdcourse.block.custom.FireworksBlock;
 import net.sam.gdcourse.item.ModCreativeModeTab;
 import net.sam.gdcourse.item.ModItems;
 import net.sam.gdcourse.sound.ModSounds;
@@ -33,6 +34,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLACK_ORE = registerBlock("black_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)),ModCreativeModeTab.COURSE_TAB);
+
+    public static final RegistryObject<Block> FIREWORKS_BLOCK = registerBlock("fireworks_block",
+            () -> new FireworksBlock(BlockBehaviour.Properties.of(Material.EXPLOSIVE)
+                    .strength(0f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
                                                                      CreativeModeTab tab, String tooltipKey) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
