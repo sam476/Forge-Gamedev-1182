@@ -58,7 +58,7 @@ public class FantasticItem extends Item {
         pTarget.playSound(SoundEvents.DRAGON_FIREBALL_EXPLODE, 10.0F, 0.2F);
         pAttacker.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 40, 10000));
         Explosion.BlockInteraction explosion$blockinteraction = net.minecraftforge.event.ForgeEventFactory.getMobGriefingEvent(pTarget.level, pTarget) ? Explosion.BlockInteraction.DESTROY : Explosion.BlockInteraction.NONE;
-        pTarget.level.explode(pTarget, pTarget.getX(), pTarget.getY(), pTarget.getZ(), 25.0F, explosion$blockinteraction);
+        pTarget.level.explode(pTarget, pTarget.getX(), pTarget.getY(), pTarget.getZ(), 3.0F, explosion$blockinteraction);
 
         pAttacker.addEffect(new MobEffectInstance(MobEffects.HEAL, 20));
         pAttacker.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 20));
