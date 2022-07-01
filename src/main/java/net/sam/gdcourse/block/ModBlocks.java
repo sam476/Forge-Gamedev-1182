@@ -37,7 +37,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> FIREWORKS_BLOCK = registerBlock("fireworks_block",
             () -> new FireworksBlock(BlockBehaviour.Properties.of(Material.EXPLOSIVE)
-                    .strength(0f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
+                    .strength(0f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB, "tooltip.block.fireworks_block");
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,
                                                                      CreativeModeTab tab, String tooltipKey) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

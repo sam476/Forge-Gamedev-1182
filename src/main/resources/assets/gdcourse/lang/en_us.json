@@ -2,11 +2,15 @@
   "item.gdcourse.smilely": "Smilely Face",
   "item.gdcourse.fantastic_item": "Fantastic Item",
   "item.gdcourse.sodapop_item": "Soda Pop",
-  "item.gdcourse.baloons": "baloons",
+  "item.gdcourse.balloons": "Balloons",
 
   "block.gdcourse.black_ore": "Black Ore",
   "block.gdcourse.speical_block": "Special Block",
   "block.gdcourse.fireworks_block": "Fireworks Block",
+
+  "tooltip.gdcourse.sodapop_item.shift": "Eat me to get super speed",
+  "tooltip.gdcourse.sodapop_item": "Press §eSHIFT§r for more instructions",
+  "tooltip.block.fireworks_block": "Sends many rockets away!",
 
   "ItemGroup.coursemodtab": "GDCourse Mod"
 }

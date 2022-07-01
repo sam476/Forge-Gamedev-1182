@@ -9,7 +9,7 @@ public class ModFoods { // each second is 20 ticks
             .effect(() -> new MobEffectInstance(MobEffects.HEAL, 4800), 100f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 4800), 100f)
             .effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, 4800), 100f).effect(() -> new MobEffectInstance(MobEffects.JUMP, 4800), 100f).build();
 
-    public static final FoodProperties BALOONS = new FoodProperties.Builder().nutrition(0).saturationMod(1f)
+    public static final FoodProperties BALLOONS = new FoodProperties.Builder().nutrition(0).saturationMod(1f)
             .effect(() -> new MobEffectInstance(MobEffects.LEVITATION, 200, 30), 100f)
             .effect(() -> new MobEffectInstance(MobEffects.SLOW_FALLING, 2400), 100f)
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2400, 1000), 100f)
