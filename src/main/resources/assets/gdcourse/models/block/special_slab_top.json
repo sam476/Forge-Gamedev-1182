@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "gdcourse:block/special_block",
+    "top": "gdcourse:block/special_block",
+    "side": "gdcourse:block/special_block"
+  }
+}

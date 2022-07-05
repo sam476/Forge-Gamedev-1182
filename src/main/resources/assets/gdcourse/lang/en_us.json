@@ -7,6 +7,8 @@
   "block.gdcourse.black_ore": "Black Ore",
   "block.gdcourse.speical_block": "Special Block",
   "block.gdcourse.fireworks_block": "Fireworks Block",
+  "block.gdcourse.special_stairs": "Special Stairs",
+  "block.gdcourse.special_slab": "Special Slab",
 
   "tooltip.gdcourse.sodapop_item.shift": "Eat me to get super speed",
   "tooltip.gdcourse.sodapop_item": "Press §eSHIFT§r for more instructions",

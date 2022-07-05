@@ -7,6 +7,7 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.OreBlock;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -30,6 +31,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> SPECIAL_BLOCK = registerBlock("special_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(ModSounds.SPECIAL_BLOCK_SOUNDS)
                     .strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
+
+    public static final RegistryObject<Block> SPECIAL_STAIRS = registerBlock("special_stairs",
+            () -> new StairBlock(() -> ModBlocks.SPECIAL_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.METAL).strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
+
+    public static final RegistryObject<Block> SPECIAL_SLAB = registerBlock("special_slab",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(1f).requiresCorrectToolForDrops()), ModCreativeModeTab.COURSE_TAB);
 
     public static final RegistryObject<Block> BLACK_ORE = registerBlock("black_ore",
             () -> new OreBlock(BlockBehaviour.Properties.of(Material.STONE)

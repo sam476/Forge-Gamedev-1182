@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "gdcourse:block/special_slab"
+    },
+    "type=double": {
+      "model": "gdcourse:block/special_block"
+    },
+    "type=top": {
+      "model": "gdcourse:block/special_slab_top"
+    }
+  }
+}
